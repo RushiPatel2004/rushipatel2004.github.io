@@ -1,0 +1,28 @@
+div {
+    font-family: Helvetica;
+    background-color: black;
+    color: white;
+    font-size: 32px;
+    padding: 5px;
+ }
+  
+ #big_div {
+    display: flex;
+    justify-content: space-around;
+ }
+  
+ img {
+    width: 100px;
+ }
+  
+ .items:hover {
+    background-color: gray;
+    opacity: 0.5;
+ }
+  
+ a {
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+ }
+ 
