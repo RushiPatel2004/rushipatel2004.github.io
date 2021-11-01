@@ -1,17 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8">
-   <title>Navigation Bar</title>
-   <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <title>Quick Finance </title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="node_modules/swup/dist/swup.min.js"></script>
+    
 </head>
 <body>
-   <div id="big_div">
-       <img class="images" src="images/nike.png">
-       <a href="https://www.nike.com/"><div class="items">Home</div></a>
-       <a href="https://footwearnews.com/feature/best-nike-shoes-of-all-time-to-shop-1202880643/"><div class="items">Best Shoes</div></a>
-       <a href="https://www.highsnobiety.com/p/best-nike-jackets-buy-online/"><div class="items">Best Jackets</div></a>
-       <a href="https://heavy.com/sports/2017/07/top-best-nike-golf-hats-caps-visors-buckets-men-dri-fit-uv-sun-protection-2017/"><div class="items">Best Hats</div></a>
-   </div>
+    
+    <div id="nav_bar">
+        <a href=""><img class="images" id="logo" src="images/download (1).png"></a>
+        <a href="/home2.html"><div class="items">Home</div></a>
+        <a href="/index.html"><div class="items">Salary Tax Calculator</div></a>
+        <a href="/sales_tax.html"><div class="items">Sales Tax Calculator</div></a>
+    </div>
+    <div id="rest"></div>
+    <div class="wrapper">
+        <div class="typing-demo">
+          Quick Finance
+        </div>
+    </div>
+
+<main class="transition">
+    <h1>After Tax Salary Calculator</h1>
+    <h2>Overview</h2>
+    <p>Your income is taxed by both the state and federal governments. The federal income tax system is progressive, meaning that tax rates will increase as the income increases. This is also true for the state tax system. In order to accurately calcualute your take-home salary, you can use this website.</p>
+</main>
+    
+
+
+    <div>
+    <img id="map" src="images/output-onlinepngtools.png">
+    </div>
+    <div class="main_container">
+        <div>
+            <label for="title_input">Yearly Income: </label>
+            <input type="text" id="income_input">
+        </div>
+
+        <form>
+            State:
+            <select id="States">
+             <option value="choice">Choose one:</option>
+              <option value="AL">AL</option>
+              <option value="AK">AK</option>
+              <option value="AZ">AZ</option>
+              <option value="AR">AR</option>
+              <option value="CA">CA</option>
+              <option value="CO">CO</option>
+              <option value="CT">CT</option>
+              <option value="DE">DE</option>
+              <option value="FL">FL</option>
+              <option value="GA">GA</option>
+              <option value="HI">HI</option>
+              <option value="ID">ID</option>
+              <option value="IL">IL</option>
+              <option value="IN">IN</option>
+              <option value="IA">IA</option>
+              <option value="KS">KS</option>
+              <option value="KY">KY</option>
+              <option value="LA">LA</option>
+              <option value="ME">ME</option>
+              <option value="MD">MD</option>
+              <option value="MA">MA</option>
+              <option value="MI">MI</option>
+              <option value="MN">MN</option>
+              <option value="MS">MS</option>
+              <option value="MO">MO</option>
+              <option value="MT">MT</option>
+              <option value="NE">NE</option>
+              <option value="NV">NV</option>
+              <option value="NH">NH</option>
+              <option value="NJ">NJ</option>
+              <option value="NM">NM</option>
+              <option value="NY">NY</option>
+              <option value="NC">NC</option>
+              <option value="ND">ND</option>
+              <option value="OH">OH</option>
+              <option value="OK">OK</option>
+              <option value="OR">OR</option>
+              <option value="PA">PA</option>
+              <option value="RI">RI</option>
+              <option value="SC">SC</option>
+              <option value="SD">SD</option>
+              <option value="TN">TN</option>
+              <option value="TX">TX</option>
+              <option value="UT">UT</option>
+              <option value="VT">VT</option>
+              <option value="VA">VA</option>
+              <option value="WA">WA</option>
+              <option value="WV">WV</option>
+              <option value="WI">WI</option>
+              <option value="WY">WY</option>
+            </select>
+          </form>
+        
+
+        <div>
+            <button id="button">Submit</button>
+        </div>
+    </div>
+
+
+    <h3><span>Accurate </span>Results <span>Given!</span></h3>
+
 </body>
 </html>
